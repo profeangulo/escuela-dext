@@ -1,0 +1,41 @@
+footer { width: 100%; height: auto; display: block; margin: 0 auto; float: none; padding: 0 0 100px 0; position: relative; background: url('https://dext.com.co/wp-content/uploads/2019/03/dext-escuela-de-tecnologias-digitales.jpg') no-repeat top center fixed #111; background-size: cover; border-top: solid 3px #09f; }
+
+footer.entry-footer { display: none !important; }
+
+
+
+footer article:nth-child(1) { width: 284px; height: 200px; display: block; margin: 0 auto 50px auto; padding: 0; float: none; padding: 0; }
+footer article:nth-child(1) p { font-family: 'Oswald', sans-serif; text-align: center; line-height: 1.15em; padding: 100px 0 10px 0; font-weight: 300 !important; color: #fff; margin: 0 auto; letter-spacing: 0.095em; font-size: 1.35em; }
+footer article:nth-child(1) nav { width: 100%; height: 50px; display: block; margin: 15px auto 0 auto; padding: 0; float: none; }
+footer article:nth-child(1) nav a { width: 50px; height: 50px; display: block; margin: 0 3px; float: left; font-family: 'Oswald', sans-serif; text-align: center; line-height: 1em; padding: 16px 10px; font-weight: 400 !important; color: #fff; font-size: 1.15em; background: #09f; border-radius: 25px; transition: all 0.3s ease-in; }
+footer article:nth-child(1) nav a:hover { color: #000; background: #fff; text-decoration: none; transition: all 0.15s ease-out; }
+
+
+
+footer article:nth-child(2) { width: 605px; height: 105px; display: block; margin: 50px auto 60px; padding: 0; float: none; }
+footer article:nth-child(2) nav { width: 275px; height: 105px; display: block; margin: 0 55px 0 0; float: left; }
+footer article:nth-child(2) nav:nth-child(2) { margin: 0; }
+footer article:nth-child(2) nav a { width: 100%; height: auto; display: block; margin: 0; float: none; color: #fff; text-align: left; font-size: 1.25em; line-height: 1em; font-weight: 300; padding: 10px 0; margin: 0; letter-spacing: 0.095em; transition: all 0.3s ease-in; }
+footer article:nth-child(2) nav:nth-child(1) a { text-align: right; }
+footer article:nth-child(2) nav a:hover { color: #09f; text-decoration: none; transition: all 0.15s ease-out; }
+
+
+
+footer a#logo-foo { width: 165px; height: 80px; display: block; margin: 0 auto; float: none; padding: 0; transition: all 0.3s ease-in; }
+footer a#logo-foo img { width: 100%; height: auto; display: block; margin: 0 auto; float: none; transition: all 0.3s ease-in; }
+footer a#logo-foo:hover { opacity: 0.9; transition: all 0.15s ease-in; }
+
+
+
+footer #to-angulo { width: 35px; height: 35px; display: block; margin: 0; position: absolute; bottom: 0; left: 0; background: url('https://www.smart-experience.co/wp-content/themes/astrid/angulo-digital.svg') no-repeat center center #000; background-size: 75%; border-radius: 0 15px 0 0; transition: all 0.3s ease-in; }
+footer #to-angulo:hover { transform: scale(1.1); transform-origin: bottom left; transition: all 0.15s ease-out; }
+
+
+
+@media only screen and (max-width: 1099px){
+	footer article:nth-child(2) { width: 275px; height: auto; display: none; }
+	footer article:nth-child(2) nav { height: auto; margin: 0 auto; float: none; }
+	footer article:nth-child(2) nav:nth-child(1) a { text-align: center; }
+	footer article:nth-child(2) nav:nth-child(2) { margin: 0 auto; }
+	footer article:nth-child(2) nav a { text-align: center; line-height: 1.55em; }
+}
